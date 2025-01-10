@@ -1,0 +1,32 @@
+@charset "utf-8";
+.series_title{
+  width: 100%;
+}
+.series_title .title_img1{
+  background: url(../img/pr_list/pr_series/matchup.jpg) no-repeat center / cover;
+  width: 100%;
+  height: calc(100vh - 164px);
+  object-fit: cover;
+}
+.series_title .title_img2{
+  background: url(../img/pr_list/pr_series/perfume.jpg) no-repeat center / cover;
+  width: 100%;
+  height: calc(100vh - 164px);
+  object-fit: cover;
+}
+.series_title .title_img3{
+  background: url(../img/pr_list/pr_series/triplelip.jpg) no-repeat center / cover;
+  width: 100%;
+  height: calc(100vh - 164px);
+  object-fit: cover;
+}
+.series_title span{
+  margin-top: 80px;
+  width: 100%;
+  height: 80px;
+  display: block;
+  text-align: center;
+  font-family: 'SUIT-M';
+  font-size: clamp(18px, 5vw, 50px);
+  padding: 15px;
+}

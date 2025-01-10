@@ -1,0 +1,17 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'SUIT-M';
+  src: url('../fonts/SUIT-Medium.ttf');
+}
+@font-face {
+  font-family: 'SUIT-T';
+  src: url('../fonts/SUIT-Thin.ttf');
+}
+@font-face {
+  font-family: 'SUIT-EL';
+  src: url('../fonts/SUIT-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'SUIT-B';
+  src: url('../fonts/SUIT-Bold.ttf');
+}

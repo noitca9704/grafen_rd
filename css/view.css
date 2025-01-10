@@ -1,0 +1,374 @@
+@charset "utf-8";
+@media screen and (min-width:1950px){  
+  .menu_wrap{
+    height: 800px;
+  }
+}
+@media screen and (max-width:1507px){
+  .option_wrap>div{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1350px){
+  .main_tab{
+    padding: 0px 30px;
+  }
+  .main_tab ul{
+    gap: 0;
+  }
+  .main_tab li{
+    width: 25%;
+
+  }
+}
+@media screen and (max-width:1303px){
+  .menu_wrap .b_swiper-button-prev, .b_swiper-button-next{
+    display: none;
+  }
+}
+@media screen and (max-width:1227px){
+  .fwrap1{
+    gap: 0;
+  }
+  .info{
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:1280px){
+  .main_wrap .main_t{
+    left: 2vw;
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+  .main_wrap .main_tr{
+    right: 2vw;
+  }
+  .main_wrap .main_t .main_t1{
+    font-size: clamp(20px, 2.5vw, 30px);
+  }
+  .main_wrap .main_t .main_t2{
+    font-size: clamp(30px, 4vw, 50px);
+  }
+  .main_wrap .main2_pr{
+    right: 2vw;
+  }
+  .main_wrap .main2_p{
+    left: 2vw;
+  }
+}
+@media screen and (max-width:1244px){
+}
+@media screen and (max-width:1150px){
+  .shop_tab{
+    top: 124px;
+  }
+  .shop_wrap{
+    margin-top: 124px;
+  }
+  .t2_list{
+    bottom: 2vw;
+  }
+  .pr_list ul{
+    gap: 50px 5%;
+  }
+  .pr_list li{
+    width: 30%;
+    height: 30%;
+  }
+  .series_title .title_img1{
+    height: calc(100vh - 124px);
+  }
+  .series_title .title_img2{
+    height: calc(100vh - 124px);
+  }
+  .series_title .title_img3{
+    height: calc(100vh - 124px);
+  }
+  .brand_sec1 {
+    padding-top: 124px;
+  }
+  .brand_sec1 .brand_sec1_inner {
+    height: calc(100vh - 124px);
+  }
+  .blank{
+    max-height: 124px;
+    height: calc(16.1vw - 40px);
+  }
+  .pr_wrap{
+    margin-top: 124px;
+  }
+  .main_wrap{
+    height: calc(100vh - 124px);
+  }
+  .main_menu{
+    display: none;
+  }
+  .menu_bar{
+    display: flex;
+    position: relative;
+  }
+  .main_icon{
+    display: none;
+  }
+  .p_gnb {
+    width: 100%;
+  }
+  .p_gnb img{
+    display: none;
+  }
+  .menu_wrap{
+    padding: 0;
+  }
+  .m_menuwrap{
+    display: block;
+  }
+  .span_wrap{
+    opacity: 1;
+    bottom: 0;
+  }
+  .btm_menu{
+    display: block;
+  }
+  .top_notice{
+    display: none;
+  }
+}
+@media screen and (max-width:1111px){
+  .info{
+    margin-left: 0;
+  }
+  .fwrap2 .cule{
+    margin-left: 0;
+  }
+  .fwrap1 img{
+    display: none;
+  }
+}
+@media screen and (max-width:1016px){
+  .blank{
+    height: 16.1vw;
+  }
+  .m_main_wrap{
+    height: calc(100vh - 16.1vw);
+  }
+}
+@media screen and (max-width:950px){
+  .m_main_wrap{
+    height: calc(100vh - 124px);
+  }
+}
+@media screen and (max-width:900px){
+
+  .pr_list ul{
+    gap: 50px 4%;
+  }
+  .pr_list li{
+    width: 48%;
+    height: 48%;
+  }
+}
+@media screen and (max-width:870px){
+  .fwrap1 .mb_center{
+    display: block;
+  }
+  .fwrap1 .pc_center{
+    display: none;
+  }
+  .fwrap1{
+    display: block;
+  }
+  .sns{
+    display: none;
+  }
+}
+@media screen and (max-width:845px){
+
+  .t_list{
+    height: 200px;
+  }
+  .t_list ul{
+    flex-wrap: wrap;
+  }
+  .t_list li{
+    width: 20%;
+  }
+}
+@media screen and (max-width:995px){
+  .shop_tab{
+    margin: 0;
+  }
+  .s_img{
+    right: 0 !important;
+  }
+  .img_wrap{
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .shop_wrap .m_img{
+    width: 80vw;
+    max-width: 830px;
+    height: 80vw;
+    max-height: 830px;
+  }
+  .shop_wrap .m_img>li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+  }
+  .shop_wrap{
+    width: 100%;
+    display: block;
+  }
+  .shop_info{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:767px){
+  .shop_tab{
+    top: 16.1vw;
+  }
+  .shop_wrap{
+    margin-top: 16.1vw;
+  }
+  .series_title .title_img1{
+    height: calc(100vh - 16.1vw);
+  }
+  .series_title .title_img2{
+    height: calc(100vh - 16.1vw);
+  }
+  .series_title .title_img3{
+    height: calc(100vh - 16.1vw);
+  }
+    .m_main_wrap{
+      height: calc(100vh - 16.1vw);
+    }
+    .brand_sec1{
+      padding-top: 16.1vw;
+    }
+    .brand_sec1 .brand_sec1_inner {
+      height: calc(100vh - 16.1vw);
+    }
+    .pr_wrap{
+      margin-top: 16.1vw;
+    }
+}
+@media screen and (max-width:750px){
+  .m_main_Swiper .swiper-slide.main4{
+    background: url(../img/main4_m.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .m_main_Swiper .swiper-slide.main2{
+    background: url(../img/main2_m.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .m_main_Swiper .swiper-slide.main1{
+    background: url(../img/main1_m.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .wrap2_title{
+    padding: 0;
+    float: none;
+  }
+  .pr_info a{
+    font-size: 15px;
+  }
+  .m_main_wrap{
+    display: block;
+  }
+  .main_wrap{
+    display: none;
+  }
+}
+@media screen and (max-width:600px){
+  .pr_wrap{
+    padding: 0px 10px;
+  }
+  .t2_list{
+    font-size: 14px;
+  }
+  footer .inner{
+    padding: 30px;
+  }
+}
+@media screen and (max-width:533px){
+}
+@media screen and (max-width:510px){
+  .series_title .title_img2{
+    background: url(../img/pr_list/pr_series/perfume_m.jpg) no-repeat center / cover;
+  }
+  .series_title .title_img3{
+    background: url(../img/pr_list/pr_series/triplelip_m.jpg) no-repeat center / cover;
+  }
+}
+
+@media screen and (max-width:501px){
+  .t_list{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:456px){
+  .s_wrap .hashtag{
+    gap: 10px;
+  }
+}
+@media screen and (max-width:453px){
+  .t_list{
+    height: 280px;
+  }
+  .t_list ul{
+    justify-content: space-between;
+  }
+  .t_list li:first-child{
+    width: 100%;
+  }
+  .t_list li{
+    width: 27%
+  }
+  .t2_list{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:403px){
+  .t2_list{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:378px){
+  .t2_list{
+    font-size: 11px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width:342px){
+  .t_list{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:324px){
+  .t_list{
+    font-size: 13px;
+  }
+  .t2_list{
+    font-size: 10px;
+    gap: 10px;
+  }
+}
+@media screen and (min-width:950px){
+  .m_main_wrap{
+    height: calc(100vh - 16.1vw);
+  }
+}
+@media screen and (min-width:560px){
+  .product_slide{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-height:800px){
+  .main_wrap .main1_p{
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+}
