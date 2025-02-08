@@ -46,7 +46,6 @@ $(function(){
     var sec1T = $(".brand_sec1").offset().top; // 
     var sec1H = $(".brand_sec1").outerHeight(); // 200vh + 164px
     var sec1TxtW_01 = $(".brand_sec1 .txt01").innerWidth();
-    var sec1TxtW_02 = $(".brand_sec1 .txt02").innerWidth();
     var sec2T = $(".brand_sec2").offset().top;
     var sec2H = $(".brand_sec2").outerHeight();
     var sec1OverT = winBottom - (sec1T + sec1H);
